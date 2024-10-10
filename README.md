@@ -1,16 +1,20 @@
-```markdown
 # Sentiment Analysis Chrome Extension
 
 This project is a Chrome extension that extracts reviews from Amazon product pages and performs sentiment analysis using a Flask backend with a Transformers model.
 
 ## Table of Contents
-- [Features](#features)
-- [Folder Structure](#folder-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+- [Sentiment Analysis Chrome Extension](#sentiment-analysis-chrome-extension)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Folder Structure](#folder-structure)
+  - [Installation](#installation)
+    - [Backend](#backend)
+    - [Frontend](#frontend)
+  - [Usage](#usage)
+  - [Technologies Used](#technologies-used)
+  - [Contributing](#contributing)
+  - [License](#license)
+    - [Notes:](#notes)
 
 ## Features
 - Collects user reviews from Amazon product pages.
@@ -77,7 +81,6 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
 
 ### Notes:
 - Make sure to update the folder structure and instructions if there are any additional files or configurations in your project.
