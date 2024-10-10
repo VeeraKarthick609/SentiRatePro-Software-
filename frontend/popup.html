@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Custom styles -->
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-4 text-center">Sentiment Analysis</h2>
+        <button id="extract-reviews" class="btn btn-primary btn-block mt-3">Extract Reviews</button>
+        
+        <div id="results" class="mt-4" style="display: none;">
+            <h4>Analysis Results:</h4>
+            <div class="card">
+                <div class="card-body">
+                    <p><strong>Positive Reviews:</strong> <span id="positive-count"><span></p>
+                    <p><strong>Negative Reviews:</strong> <span id="negative-count"><span></p>
+                    <p><strong>Positive Percentage:</strong> <span id="positive-percentage"><span>%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

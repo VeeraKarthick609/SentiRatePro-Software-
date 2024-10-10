@@ -1,0 +1,24 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background */
+}
+
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White card */
+}
+
+h2 {
+    color: #343a40; /* Dark color for headings */
+}
+
+.btn {
+    border-radius: 25px; /* Rounded button */
+}
+
+.card {
+    border-radius: 8px; /* Rounded card */
+    background-color: #f1f1f1; /* Light card background */
+}
